@@ -9,7 +9,7 @@ namespace FindItApiService.Migrations
     {
         public Configuration()
         {
-            AutomaticMigrationsEnabled = false;
+            AutomaticMigrationsEnabled = true;
         }
 
         protected override void Seed(FindItApiService.Models.FindItApiContext context)
