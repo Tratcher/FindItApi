@@ -178,6 +178,7 @@
     <Folder Include="App_Data\" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AIExceptionFilter.cs" />
     <Compile Include="App_Start\Startup.MobileApp.cs" />
     <Compile Include="Controllers\TodoItemController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
