@@ -55,8 +55,8 @@ namespace FindItApiService
         {
             List<TodoItem> todoItems = new List<TodoItem>
             {
-                new TodoItem { Id = Guid.NewGuid().ToString(), Text = "First item", Complete = false },
-                new TodoItem { Id = Guid.NewGuid().ToString(), Text = "Second item", Complete = false },
+                new TodoItem { Id = Guid.NewGuid().ToString(), Text = "First item", Complete = false, Accuracy = 0.4 },
+                new TodoItem { Id = Guid.NewGuid().ToString(), Text = "Second item", Complete = false, Accuracy = 0.5 },
             };
 
             foreach (TodoItem todoItem in todoItems)
